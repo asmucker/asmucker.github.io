@@ -1,0 +1,212 @@
+.sources div {
+  border: #fff solid 2px;
+    border-radius: 10px;
+  padding:10px;
+  /* By applying a width to this div we are saying how wide we want the sources box to be. By putting width to this object we don't have to worry about applying other widths to the items in this section. */
+  width:500px;
+  margin-left: -120px
+}
+
+.sources {
+  /* This will push the sources column down and offset it with the button */
+  margin-top:100px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Red Rose', light;
+/* font-family:'Red Rose', Regular */
+  background-color: #000000;
+  /* color: #431571;*/
+  font-size: 18px;
+  margin: 150px;
+}
+
+#container {
+  margin: 0; auto;
+  padding: 0;
+  width: 1024px;
+/*  height: 768px;*/
+}
+
+p {
+  /* an em is defined by the parent element that has defined the main value.
+  In this case all elements are inheriting the 18px value from the body tag */
+  /******** There is no stylesheet calling in the Lato typeface. */
+font-family: 'Lato',thin ;
+  font-size: 1em;
+  /* 1em = 18px */
+  font-weight: 200;
+}
+
+h1 {
+  color:#ffffff;
+  font-weight:400;
+  font-style: 'Red Rose', regular;
+  font-size:450px;
+  padding: 0px;
+margin: 0px;
+  margin-top: -100px;
+  margin-bottom: -50px;
+
+}
+
+/* TYPOGRAPHY */
+h2,h3 {
+  color: #155628;
+  font: 'Red Rose', light;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2em;
+  /* 36px / 18px = 2em */
+  font-weight: 350;
+  color: #AB252D;
+}
+
+h3 {
+  /* 24/18 = 1.3333em */
+  font-size: 1.3333em;
+  /*border: #707070 solid 10px;
+  border-radius: 10px;
+  font-size: 1.3333em;
+  width: 238px;
+height: 109px;*/
+font-family: 'Red Rose', light;
+/* margin-top: 115px;
+padding-left:200px; */
+text-align: right;
+}
+
+.letter-container {
+  display: flex;
+
+}
+
+.character-highlights {
+  text-transform: uppercase;
+  font-size: 3em;
+  /* 60/18 = 3.3333em */
+}
+
+a {
+  color: #7EA9DD;
+  /* #2A4714 */
+  text-decoration: underline;
+}
+
+
+h4 {
+  font-size: 18px;
+  font-weight: 200; light;
+
+}
+
+div {
+  color: #FFF;
+    background-color: #000000;
+    font-weight: 300; light;
+    padding: 0px;
+    border: 0px solid #524c4c;
+    border-radius: 0px;
+    margin: 22px;
+}
+
+.flexybox {
+  display: flex;
+  align-items: left;
+  margin-left: 28px;
+  margin-top: 70px;
+}
+
+/* element.style {
+position: absolute;
+  margin-top: -1450px;
+  margin-left: 30px;
+}  */
+
+.letter-container2 {
+  /* bottom: 11px; */
+  position: absolute;
+  left: 180px;
+  margin-top: 195px;
+    top: 10px;
+}
+
+.history-writeup {
+  margin-top: 50px;
+}
+
+.body-copy p {
+  font-size:24px;
+}
+
+footer {
+  margin-top: 150px;
+}
+
+#my-photo {
+  width: 200px;
+  height: 200px;
+  margin-right: 50px;
+border-radius: 10px;
+border: #19191D solid 15px;
+}
+
+.personal-title {
+  /* 29% x 1024px = 300px */
+  width: 300px;
+  margin-left:-40px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.sources {
+  /* 35% of #container width = 358.2px */
+  width: 358px;
+  align-items: center;
+}
+
+.row {
+  display:flex;
+  justify-content: space-between;
+}
+.body-copy {
+  border-right: #707070 solid .5px;
+  padding-right: 25px;
+  width: 750px;
+}
+
+.character-highlights {
+color: #D9C44F;
+  border-left: #707070 solid .5px;
+  padding-left: 25px;
+  width: 120px;
+  height: 354px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.left-column {
+  margin-right: 10px;
+}
+.right-column {
+  margin-left: 46px;
+}
+
+button {
+  border: #440909 solid 45px;
+  border-radius: 10px;
+  width: 238px;
+height: 109px;
+font-family: 'Red Rose', light;
+text-transform:uppercase;
+}

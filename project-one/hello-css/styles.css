@@ -1,0 +1,36 @@
+body {
+  color: #431571; /* Dark grey*/
+  background-color: #EEEEEE;    /* Light gray */
+  font-size: 18px;
+}
+
+
+h1 {
+  font-size: 2em;/* was 36px */
+}
+
+h2 {
+  font-size: 1.6em; /* was 28px */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: normal;                              /* Add this */
+}
+
+div {
+  color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+
+width: 200px;
+ box-sizing: border-box;
+ margin: 20px auto; /* Vertical  Horizontal */
+}
+
+a {
+  text-decoration: none;
+}

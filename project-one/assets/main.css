@@ -1,0 +1,17 @@
+.sources div {
+  border: #fff solid 2px;
+  padding:10px;
+  /* By applying a width to this div we are saying how wide we want the sources box to be. By putting width to this object we don't have to worry about applying other widths to the items in this section. */
+  width:500px;
+}
+
+.sources {
+  /* This will push the sources column down and offset it with the button */
+  margin-top:100px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
