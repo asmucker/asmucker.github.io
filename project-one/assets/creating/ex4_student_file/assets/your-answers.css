@@ -1,0 +1,59 @@
+/* This is the stylesheet where you will be putting your answers for Exercise 4: Positioning Objects */
+
+/* PROPERTIES you will be using in this exercise include:
+postion, top, left, right, order, display, justify-content, and z-index. */
+
+
+#green-froggie {
+  position: absolute;
+  margin-left: -227px;
+  margin-top: -1px;
+}
+
+#pro-one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#red-froggie {
+  position: static;
+      top: 2739px;
+      right: 0;
+      z-index: 30;
+      display: block;
+      margin-bottom: 6px;
+}
+
+#gold-froggie {
+  position: fixed;
+      top: 60%;
+      left: 90.5%; /* frog is hidden behind scroll bar*/
+}
+
+#rel-lily-pad {
+      position: relative;
+      margin-top: 379px;
+      margin-left: 86px;
+}
+
+.flexbox-frogs-1 {
+display:flex;
+}
+
+.flexbox-frogs-2 {
+justify-content: space-evenly;
+/* could also use space-between to spread out more*/
+}
+
+#unhappy-green {
+order:3;
+}
+
+#happy-red {
+order:2;
+}
+
+#unhappy-purple {
+order:1;
+}
