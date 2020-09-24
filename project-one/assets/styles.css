@@ -1,10 +1,11 @@
 .sources div {
-  border: #fff solid 2px;
-    border-radius: 10px;
-  padding:10px;
   /* By applying a width to this div we are saying how wide we want the sources box to be. By putting width to this object we don't have to worry about applying other widths to the items in this section. */
-  width:500px;
-  margin-left: -120px
+    border: #fff solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    margin-left: 122px;
+    /* margin-right: 88px; */
 }
 
 .sources {
@@ -42,24 +43,29 @@ font-family: 'Lato',thin ;
   font-size: 1em;
   /* 1em = 18px */
   font-weight: 200;
+    color: #606060;
 }
 
 h1 {
-  color:#ffffff;
-  font-weight:400;
-  font-style: 'Red Rose', regular;
-  font-size:450px;
-  padding: 0px;
+  color: #ffffff;
+font-weight: 400;
+font-style: 'Red Rose', regular;
+font-size: 450px;
+padding: 0px;
 margin: 0px;
-  margin-top: -100px;
-  margin-bottom: -50px;
-
+margin-top: -100px;
+margin-right: 331px;
+margin-bottom: -50px;
+margin-left: 405px;
+margin-top: -100px;
+margin-bottom: -50px;
+align-content: center;
 }
 
 /* TYPOGRAPHY */
 h2,h3 {
-  color: #155628;
-  font: 'Red Rose', light;
+  color: #e9e8e8;
+  font: 'Red Rose', regular;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -67,9 +73,10 @@ h2,h3 {
 
 h2 {
   font-size: 2em;
-  /* 36px / 18px = 2em */
-  font-weight: 350;
-  color: #AB252D;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    margin-top: -5px;
 }
 
 h3 {
@@ -83,7 +90,7 @@ height: 109px;*/
 font-family: 'Red Rose', light;
 /* margin-top: 115px;
 padding-left:200px; */
-text-align: right;
+text-align: center;
 }
 
 .letter-container {
@@ -98,22 +105,25 @@ text-align: right;
 }
 
 a {
-  color: #7EA9DD;
-  /* #2A4714 */
+color: #606060;
   text-decoration: underline;
+  /* color: #7EA9DD; */
+  /* #2A4714 */
+
 }
 
 
 h4 {
-  font-size: 18px;
-  font-weight: 200; light;
-
+  font-size: 14px;
+    font-weight: 200;
+    light: ;
+    text-align: center;
+    margin-left: 41px;
 }
 
 div {
   color: #FFF;
-    background-color: #000000;
-    font-weight: 300; light;
+    font-weight: 300;
     padding: 0px;
     border: 0px solid #524c4c;
     border-radius: 0px;
@@ -125,6 +135,7 @@ div {
   align-items: left;
   margin-left: 28px;
   margin-top: 70px;
+  border-radius: 10px;
 }
 
 /* element.style {
@@ -139,6 +150,11 @@ position: absolute;
   left: 180px;
   margin-top: 195px;
     top: 10px;
+
+    /* position: absolute;
+    left: 158px;
+    margin-top: 157px;
+    top: 10px; */
 }
 
 .history-writeup {
@@ -151,43 +167,38 @@ position: absolute;
 
 footer {
   margin-top: 150px;
+  position: relative;
+    z-index: 99;
 }
 
 #my-photo {
-  width: 200px;
-  height: 200px;
-  margin-right: 50px;
-border-radius: 10px;
-border: #19191D solid 15px;
+width: 150px;
+    height: 150px;
+    margin-left: 265px;
+    border-radius: 10px;
+    border: #19191D solid 8px;
 }
 
 .personal-title {
   /* 29% x 1024px = 300px */
   width: 300px;
-  margin-left:-40px;
+  margin-left:-4px;
   margin-bottom: 100px;
   margin-top: 100px;
 }
 
-.sources {
-  /* 35% of #container width = 358.2px */
-  width: 358px;
-  align-items: center;
-}
-
 .row {
   display:flex;
-  justify-content: space-between;
 }
 .body-copy {
-  border-right: #707070 solid .5px;
+  border-right: #b9afaf solid .5px;
   padding-right: 25px;
   width: 750px;
 }
 
 .character-highlights {
 color: #D9C44F;
-  border-left: #707070 solid .5px;
+  border-left: #b9afaf solid .5px;
   padding-left: 25px;
   width: 120px;
   height: 354px;
@@ -204,9 +215,91 @@ color: #D9C44F;
 
 button {
   border: #440909 solid 45px;
-  border-radius: 10px;
-  width: 238px;
-height: 109px;
-font-family: 'Red Rose', light;
-text-transform:uppercase;
+      border-radius: 10px;
+      width: 300px;
+      height: 146px;
+      font-family: 'Red Rose', light;
+      text-transform: uppercase;
+      background-color: #440909;
+      font-size: 26px;
+      color: #AB252D;
+      margin-top: -37px;
+      margin-right: 24px;
+}
+
+#footer-rectangle-one {
+  height: 79px;
+    width: 95%;
+    background-color: #48070750;
+    position: absolute;
+    bottom: 46px;
+    border-radius: 10px;
+}
+
+#footer-rectangle-two {
+  height: 50px;
+    width: 95%;
+    background-color: #E6C0C012;
+    position: absolute;
+    bottom: 137px;
+    border-radius: 10px;
+}
+
+#footer-rectangle-three {
+  height: 63px;
+      width: 95%;
+      background-color: #A3A56297;
+      border-radius:10px;
+}
+
+#footer-rectangle-four{
+height: 3px;
+width: 52%;
+background-color: #524a4a;
+position: center;
+bottom: 135px;
+/* border-radius: 10px; */
+top: 194px;
+margin-left: 282px;
+margin-left: center;
+}
+
+#footer-rectangle-five{
+height: 3px;
+width: 52%;
+background-color: #524a4a;
+position: center;
+bottom: 145px;
+/* border-radius: 10px; */
+top: 194px;
+margin-left: 282px;
+margin-left: center;
+}
+
+#footer-rectangle-six{
+height: 3px;
+width: 52%;
+background-color: #524a4a;
+position: center;
+bottom: 155px;
+/* border-radius: 10px; */
+top: 194px;
+margin-left: 282px;
+margin-left: center;
+}
+
+#center {
+display: block;
+  margin-left: 20px;
+  margin-bottom: -15px;
+}
+
+#image-3 {
+  margin-left: 30px;
+  display:block;
+  margin-top: 30px:
+}
+
+#image-1 {
+  margin-right: 33px;
 }
