@@ -1,16 +1,17 @@
 .sources div {
   /* By applying a width to this div we are saying how wide we want the sources box to be. By putting width to this object we don't have to worry about applying other widths to the items in this section. */
-    border: #fff solid 2px;
+  border: #323232 solid 2px;
     border-radius: 10px;
-    padding: 10px;
-    width: 500px;
-    margin-left: 122px;
-    /* margin-right: 88px; */
+    padding: 19px;
+    width: 423px;
+    /* left: 20px; */
+    margin-left: 118px;
+    margin-top: 36px;
 }
 
 .sources {
   /* This will push the sources column down and offset it with the button */
-  margin-top:100px;
+  margin-top: 23px;
 }
 
 
@@ -29,9 +30,9 @@ body {
 }
 
 #container {
-  margin: 0; auto;
+  /* margin: 0; auto; */
   padding: 0;
-  width: 1024px;
+  /* width: 1024px; */
 /*  height: 768px;*/
 }
 
@@ -47,32 +48,30 @@ font-family: 'Lato',thin ;
 }
 
 h1 {
-  color: #ffffff;
-font-weight: 400;
-font-style: 'Red Rose', regular;
-font-size: 450px;
-padding: 0px;
-margin: 0px;
-margin-top: -100px;
-margin-right: 331px;
-margin-bottom: -50px;
-margin-left: 405px;
-margin-top: -100px;
-margin-bottom: -50px;
-align-content: center;
+  position: relative;
+      color: #ffffff;
+      font-weight: 400;
+      font-style: 'Red Rose', regular;
+      font-size: 451px;
+      padding: 0px;
+      /* margin: 0px; */
+      margin-top: -100px;
+      /* margin-right: 331px; */
+      /* margin-bottom: -50px; */
+      margin-left: 358px;
+      margin-top: -100px;
+      margin-bottom: -132px;
+      /* align-content: center; */
 }
 
 /* TYPOGRAPHY */
-h2,h3 {
-  color: #e9e8e8;
-  font: 'Red Rose', regular;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
-}
 
 h2 {
+  font: 'Red Rose', light;
+  font-weight: 400;
   font-size: 2em;
+  margin: 0;
+  padding: 0;
     font-weight: 400;
     color: #FFFFFF;
     margin-bottom: 32px;
@@ -81,16 +80,23 @@ h2 {
 
 h3 {
   /* 24/18 = 1.3333em */
-  font-size: 1.3333em;
-  /*border: #707070 solid 10px;
-  border-radius: 10px;
-  font-size: 1.3333em;
-  width: 238px;
-height: 109px;*/
-font-family: 'Red Rose', light;
-/* margin-top: 115px;
-padding-left:200px; */
-text-align: center;
+  ont: 'Red Rose', light;
+    font-size: 30px;
+    font-weight: 400;
+    /* margin: 73px; */
+    padding: 0;
+    margin-top: -15px;
+    position: absolute;
+    right: 275px;
+    }
+
+h4 {
+font: 'Red Rose', light;
+font-size: 14px;
+  font-weight: 200;
+  /* text-align: center; */
+  margin-right: 13px;
+  margin-left: 20px;
 }
 
 .letter-container {
@@ -112,15 +118,6 @@ color: #606060;
 
 }
 
-
-h4 {
-  font-size: 14px;
-    font-weight: 200;
-    light: ;
-    text-align: center;
-    margin-left: 41px;
-}
-
 div {
   color: #FFF;
     font-weight: 300;
@@ -132,10 +129,10 @@ div {
 
 .flexybox {
   display: flex;
-  align-items: left;
-  margin-left: 28px;
-  margin-top: 70px;
-  border-radius: 10px;
+      align-items: left;
+      /* margin-left: 28px; */
+      margin-top: 36px;
+      border-radius: 10px;
 }
 
 /* element.style {
@@ -144,25 +141,12 @@ position: absolute;
   margin-left: 30px;
 }  */
 
-.letter-container2 {
-  /* bottom: 11px; */
-  position: absolute;
-  left: 180px;
-  margin-top: 195px;
-    top: 10px;
-
-    /* position: absolute;
-    left: 158px;
-    margin-top: 157px;
-    top: 10px; */
-}
-
 .history-writeup {
   margin-top: 50px;
 }
 
 .body-copy p {
-  font-size:24px;
+  font-size:28px;
 }
 
 footer {
@@ -172,19 +156,20 @@ footer {
 }
 
 #my-photo {
-width: 150px;
-    height: 150px;
-    margin-left: 265px;
-    border-radius: 10px;
+  width: 127px;
+    height: 137px;
+    margin-left: 143px;
+    border-radius: 23px;
     border: #19191D solid 8px;
+    margin-top: -39px;
 }
 
 .personal-title {
   /* 29% x 1024px = 300px */
   width: 300px;
-  margin-left:-4px;
-  margin-bottom: 100px;
-  margin-top: 100px;
+    margin-left: -4px;
+    margin-bottom: 118px;
+    margin-top: 68px;
 }
 
 .row {
@@ -192,18 +177,18 @@ width: 150px;
 }
 .body-copy {
   border-right: #b9afaf solid .5px;
-  padding-right: 25px;
-  width: 750px;
+    padding-right: 100px;
+    width: 750px;
 }
 
 .character-highlights {
-color: #D9C44F;
-  border-left: #b9afaf solid .5px;
-  padding-left: 25px;
-  width: 120px;
-  height: 354px;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  color: #D9C44F;
+      border-left: #b9afaf solid .5px;
+      padding-left: 25px;
+      width: 100px;
+      height: 344px;
+      overflow-x: hidden;
+      overflow-y: scroll;
 }
 
 .left-column {
@@ -214,66 +199,65 @@ color: #D9C44F;
 }
 
 button {
-  border: #440909 solid 45px;
-      border-radius: 10px;
-      width: 300px;
-      height: 146px;
-      font-family: 'Red Rose', light;
-      text-transform: uppercase;
-      background-color: #440909;
-      font-size: 26px;
-      color: #AB252D;
-      margin-top: -37px;
-      margin-right: 24px;
+  border: #440909 solid 68px;
+    border-radius: 21px;
+    width: 426px;
+    height: 166px;
+    font-family: 'Red Rose', light;
+    text-transform: uppercase;
+    background-color: #440909;
+    font-size: 30px;
+    color: #AB252D;
+    margin-top: 10px;
 }
 
 #footer-rectangle-one {
-  height: 79px;
-    width: 95%;
-    background-color: #48070750;
-    position: absolute;
-    bottom: 46px;
+  height: 74px;
+    width: 93%;
+    background-color: #48070773;
+    position: relative;
+    bottom: 184px;
     border-radius: 10px;
-}
+  }
+
 
 #footer-rectangle-two {
-  height: 50px;
-    width: 95%;
-    background-color: #E6C0C012;
-    position: absolute;
-    bottom: 137px;
+  height: 43px;
+    width: 93%;
+    background-color: #e6c0c014;
+    position: relative;
+    bottom: 339px;
     border-radius: 10px;
-}
+  }
 
 #footer-rectangle-three {
-  height: 63px;
-      width: 95%;
+  height: 74px;
+      width: 93%;
       background-color: #A3A56297;
       border-radius:10px;
 }
 
 #footer-rectangle-four{
-height: 3px;
-width: 52%;
-background-color: #524a4a;
-position: center;
-bottom: 135px;
-/* border-radius: 10px; */
-top: 194px;
-margin-left: 282px;
-margin-left: center;
+  height: 3px;
+      width: 52%;
+      background-color: #524a4a;
+      margin-right: 45px;
+      bottom: 133px;
+      top: 277px;
+      margin-left: 248px;
+      /* position: absolute; */
+        /*  border-radius: 10px;*/
 }
 
 #footer-rectangle-five{
-height: 3px;
-width: 52%;
-background-color: #524a4a;
-position: center;
-bottom: 145px;
-/* border-radius: 10px; */
-top: 194px;
-margin-left: 282px;
-margin-left: center;
+  height: 3px;
+      width: 52%;
+      background-color: #524a4a;
+      bottom: 163px;
+      top: 291px;
+      margin-left: 248px;
+      /* position: absolute; */
+      /*  border-radius: 10px;*/
 }
 
 #footer-rectangle-six{
@@ -283,23 +267,44 @@ background-color: #524a4a;
 position: center;
 bottom: 155px;
 /* border-radius: 10px; */
-top: 194px;
-margin-left: 282px;
-margin-left: center;
+top: 313px;
+margin-left: 248px;
 }
 
-#center {
+.center {
 display: block;
   margin-left: 20px;
   margin-bottom: -15px;
 }
 
-#image-3 {
-  margin-left: 30px;
-  display:block;
-  margin-top: 30px:
+
+#letter-container2 img {
+  /* bottom: 11px; */
+    display: flex;
+    position: absolute;
+    left: 384px;
+    top: 140px;
 }
 
-#image-1 {
-  margin-right: 33px;
+#letter-container3 img{
+  /* display: flex; */
+    position: absolute;
+    right: 435px;
+    top: 140px;
+}
+
+
+ .letter-container img{
+   display: flex;
+position: absolute;
+margin-left: 388px;
+margin-top: 57px;
+ }
+
+.letter-analysis {
+  opacity: 0;
+}
+
+.letter-analysis.visible {
+  opacity:1;
 }
