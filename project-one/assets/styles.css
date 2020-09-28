@@ -1,6 +1,6 @@
 .sources div {
   /* By applying a width to this div we are saying how wide we want the sources box to be. By putting width to this object we don't have to worry about applying other widths to the items in this section. */
-  border: #323232 solid 2px;
+  border: #8c8383 solid 2px;
     border-radius: 10px;
     padding: 19px;
     width: 423px;
@@ -209,6 +209,8 @@ button {
     font-size: 30px;
     color: #AB252D;
     margin-top: 10px;
+    position: relative;
+    z-index: 9999;
 }
 
 #footer-rectangle-one {
@@ -301,10 +303,16 @@ margin-left: 388px;
 margin-top: 57px;
  }
 
-.letter-analysis {
+ /* .letter-container img {
+   opacity: 0;
+ } */
+.letter-container img {
+  opacity: 1;
+}
+letter-analysis2 {
   opacity: 0;
 }
 
-.letter-analysis.visible {
-  opacity:1;
+letter-analysis.visible {
+  opacity: 1
 }
