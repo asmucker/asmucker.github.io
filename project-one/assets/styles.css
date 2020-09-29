@@ -7,6 +7,7 @@
     /* left: 20px; */
     margin-left: 118px;
     margin-top: 36px;
+    margin-right: 0px;
 }
 
 .sources {
@@ -30,10 +31,9 @@ body {
 }
 
 #container {
-  /* margin: 0; auto; */
+  margin: 0; auto;
   padding: 0;
-  /* width: 1024px; */
-/*  height: 768px;*/
+  width: 1024px;
 }
 
 p {
@@ -80,14 +80,13 @@ h2 {
 
 h3 {
   /* 24/18 = 1.3333em */
-  ont: 'Red Rose', light;
+  font-family: 'Red Rose', light;
     font-size: 30px;
     font-weight: 400;
     /* margin: 73px; */
     padding: 0;
     margin-top: -15px;
-    position: absolute;
-    right: 275px;
+    text-align: right;
     }
 
 h4 {
