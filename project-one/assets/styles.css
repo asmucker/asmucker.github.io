@@ -297,22 +297,19 @@ display: block;
 
 
  .letter-container img{
+   /* opacity: 0; */
    display: flex;
 position: absolute;
 margin-left: 388px;
 margin-top: 57px;
  }
 
- /* .letter-container img {
-   opacity: 0;
- } */
-.letter-container img {
-  opacity: 1;
-}
-letter-analysis2 {
+
+
+#letter-analysis2 {
   opacity: 0;
 }
 
-letter-analysis2.visible {
+#letter-analysis2.visible {
   opacity: 1
 }
