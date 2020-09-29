@@ -15,7 +15,6 @@
   margin-top: 23px;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -31,9 +30,9 @@ body {
 }
 
 #container {
-  margin: 0; auto;
+  /* margin: 0; auto; */
   padding: 0;
-  width: 1024px;
+  /* width: 1024px; */
 }
 
 p {
@@ -48,20 +47,13 @@ font-family: 'Lato',thin ;
 }
 
 h1 {
-  position: relative;
-      color: #ffffff;
-      font-weight: 400;
-      font-style: 'Red Rose', regular;
-      font-size: 451px;
-      padding: 0px;
-      /* margin: 0px; */
-      margin-top: -100px;
-      /* margin-right: 331px; */
-      /* margin-bottom: -50px; */
-      margin-left: 358px;
-      margin-top: -100px;
-      margin-bottom: -132px;
-      /* align-content: center; */
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'Red Rose', sans-serif;
+  font-size: 451px;
+  padding: 0px;
+  margin-left: -31px;
+  margin-top: -91px;
 }
 
 /* TYPOGRAPHY */
@@ -80,13 +72,13 @@ h2 {
 
 h3 {
   /* 24/18 = 1.3333em */
-  font-family: 'Red Rose', light;
+  font-family: 'Red Rose', sans-serif;
     font-size: 30px;
     font-weight: 400;
     /* margin: 73px; */
     padding: 0;
-    margin-top: -15px;
     text-align: right;
+    /* margin-top: -15px; */
     }
 
 h4 {
@@ -128,7 +120,7 @@ div {
 
 .flexybox {
   display: flex;
-      align-items: left;
+      /* align-items: left; */
       /* margin-left: 28px; */
       margin-top: 36px;
       border-radius: 10px;
@@ -178,6 +170,7 @@ footer {
   border-right: #b9afaf solid .5px;
     padding-right: 100px;
     width: 750px;
+    height: 358px;
 }
 
 .character-highlights {
@@ -185,7 +178,7 @@ footer {
       border-left: #b9afaf solid .5px;
       padding-left: 25px;
       width: 100px;
-      height: 344px;
+      height: 358px;
       overflow-x: hidden;
       overflow-y: scroll;
 }
@@ -214,7 +207,7 @@ button {
 
 #footer-rectangle-one {
   height: 74px;
-    width: 93%;
+    width: 96%;
     background-color: #48070773;
     position: relative;
     bottom: 184px;
@@ -224,60 +217,34 @@ button {
 
 #footer-rectangle-two {
   height: 43px;
-    width: 93%;
+    width: 96%;
     background-color: #e6c0c014;
     position: relative;
     bottom: 339px;
     border-radius: 10px;
   }
 
-#footer-rectangle-three {
-  height: 74px;
-      width: 93%;
-      background-color: #A3A56297;
-      border-radius:10px;
-}
+  #lines-below-header {
+    margin: 0 auto;
+    /* width of the header + 100px = the width of our lines */
+    /* 530.35px + 100px = 630.35px */
+    width: 630.35px;
+  }
 
-#footer-rectangle-four{
-  height: 3px;
-      width: 52%;
-      background-color: #524a4a;
-      margin-right: 45px;
-      bottom: 133px;
-      top: 277px;
-      margin-left: 248px;
-      /* position: absolute; */
-        /*  border-radius: 10px;*/
-}
+  #lines-below-header div {
+    margin: 22px 0px;
+  }
 
-#footer-rectangle-five{
-  height: 3px;
-      width: 52%;
-      background-color: #524a4a;
-      bottom: 163px;
-      top: 291px;
-      margin-left: 248px;
-      /* position: absolute; */
-      /*  border-radius: 10px;*/
-}
+  .thin-brown-line {
+    height: 3px;
+    background-color: #524a4a;
+  }
 
-#footer-rectangle-six{
-height: 3px;
-width: 52%;
-background-color: #524a4a;
-position: center;
-bottom: 155px;
-/* border-radius: 10px; */
-top: 313px;
-margin-left: 248px;
-}
-
-.center {
-display: block;
-  margin-left: 20px;
-  margin-bottom: -15px;
-}
-
+  #green-header-rectangle {
+    height: 74px;
+    background-color: #A3A56297;
+    border-radius: 10px;
+  }
 
 #letter-container2 img {
   /* bottom: 11px; */
@@ -294,21 +261,34 @@ display: block;
     top: 140px;
 }
 
-
- .letter-container img{
-   /* opacity: 0; */
-   display: flex;
-position: absolute;
-margin-left: 388px;
-margin-top: 57px;
- }
-
-
+.letter-container {
+  position: relative;
+    height: 311px;
+    width: 257px;
+    top: -12px;
+}
 
 #letter-analysis2 {
   opacity: 0;
 }
 
 #letter-analysis2.visible {
-  opacity: 1
+  opacity: 1;
+  position: absolute;
+bottom: -17px;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  /* width = roses + letter-container */
+  /* width = 113.8 + 113.8 + 302.75 = 530.35px */
+  width: 664.4px;
+  /* width: 657px; */
+  margin: 0 auto;
+}
+
+.roses {
+  /* 0.519650655 ratio width to height */
+  height: 340px;
 }
