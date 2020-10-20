@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="660" viewBox="0 0 1800 660">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c4c4c4;
+        stroke-width: 4px;
+      }
+
+      .cls-1, .cls-5, .cls-6 {
+        stroke: #707070;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #707070;
+        font-family: LucidaGrande, Lucida Grande;
+      }
+
+      .cls-2 {
+        font-size: 42px;
+      }
+
+      .cls-3 {
+        font-family: Baghdad;
+      }
+
+      .cls-4 {
+        font-size: 48px;
+        letter-spacing: 0.225em;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6, .cls-8 {
+        fill: none;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_8" data-name="Group 8" transform="translate(-60 -303)">
+    <g id="Group_5" data-name="Group 5">
+      <g id="Rectangle_19" data-name="Rectangle 19" class="cls-1" transform="translate(897 303)">
+        <rect class="cls-7" width="963" height="660"/>
+        <rect class="cls-8" x="2" y="2" width="959" height="656"/>
+      </g>
+      <text id="Digital_drawing_or_concert_photo_of_band" data-name="Digital drawing or concert photo of band" class="cls-2" transform="translate(1006 570)"><tspan x="36.396" y="41">Digital</tspan><tspan class="cls-3" y="41"> </tspan><tspan y="41">drawing</tspan><tspan class="cls-3" y="41"> </tspan><tspan y="41">or</tspan><tspan class="cls-3" y="41"> </tspan><tspan y="41">concert</tspan><tspan class="cls-3" y="41"> </tspan><tspan y="41">photo</tspan><tspan class="cls-3" y="41"> </tspan><tspan y="41">of</tspan><tspan class="cls-3" y="41"> </tspan><tspan x="338.436" y="101">band</tspan></text>
+      <text id="Evolution" class="cls-4" transform="translate(483 376)"><tspan x="7.566" y="46">EVOLUTION</tspan></text>
+      <g id="Rectangle_20" data-name="Rectangle 20" class="cls-5" transform="translate(60 460)">
+        <rect class="cls-7" width="785" height="500"/>
+        <rect class="cls-8" x="0.5" y="0.5" width="784" height="499"/>
+      </g>
+      <g id="Rectangle_34" data-name="Rectangle 34" class="cls-6" transform="translate(60 393)">
+        <rect class="cls-7" width="398" height="19"/>
+        <rect class="cls-8" x="0.5" y="0.5" width="397" height="18"/>
+      </g>
+      <g id="Rectangle_40" data-name="Rectangle 40" class="cls-5" transform="translate(88 875)">
+        <rect class="cls-7" width="54" height="56"/>
+        <rect class="cls-8" x="0.5" y="0.5" width="53" height="55"/>
+      </g>
+    </g>
+  </g>
+</svg>
