@@ -1,0 +1,40 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+section {
+  height: 2000px;
+  width: 100vw;
+}
+
+section.one {
+  background-color: #FFF;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+section.normal {
+background-color: #3A294E;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  width:20%;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #3A294E;
+  color: #000;
+  padding: 20px;
+  text-decoration: underline;
+  display: block;
+}
