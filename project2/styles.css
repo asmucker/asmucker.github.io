@@ -17,7 +17,7 @@ section.one {
   /* width: 1024px; */
   margin-left: 0;
   margin-right: 0;
-  margin-top: 200px;
+  margin-top: 106px;
 }
 
 /* section.normal {
@@ -55,4 +55,10 @@ h1 {
 h5{
   font-size: 50px;
   text-color: #ADADAD;
+}
+
+#home.active,#the-start.active,
+#evolution.active, #religion.active,
+#socjustice.active {
+  color: #F73E3E;
 }
