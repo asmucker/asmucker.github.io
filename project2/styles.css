@@ -1,6 +1,7 @@
 body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
+  background-color: #E5E5E5;
 }
 
 section {
@@ -10,21 +11,23 @@ section {
 }
 
 section.one {
-  background-color: #FFF;
+  background-color: #E5E5E5;
+}
+
+section.normal {
+  background-color: #3A294E;
+  height: 393px;
+  text-align: center;
+  width: 947px;
+  margin-left: 40px;
 }
 
 .container {
   /* width: 1024px; */
   margin-left: 0;
   margin-right: 0;
-  margin-top: 106px;
+  margin-top: 107px;
 }
-
-/* section.normal {
-background-color: #3A294E;
-height: 517px;
-text-align: center;
-} */
 
 nav {
   display: flex;
@@ -33,7 +36,7 @@ nav {
 }
 
 nav a {
-  width:20%;
+  width: 20%;
   font-size: 24px;
   text-transform: none;
   text-align: center;
@@ -46,19 +49,255 @@ nav a {
 
 h1 {
   font-size: 45px;
-      text-transform: uppercase;
-      text-align: center;
-      color: #707070;
-      display: block;
+  text-transform: uppercase;
+  /* text-align: center; */
+  color: #707070;
+  display: block;
 }
 
-h5{
+h5 {
   font-size: 50px;
   text-color: #ADADAD;
 }
 
-#home.active,#the-start.active,
+#home.active, #the-start.active,
 #evolution.active, #religion.active,
 #socjustice.active {
   color: #F73E3E;
+}
+
+#home:hover, #the-start:hover, #evolution:hover,
+#religion:hover, #socjustice:hover {
+  background-color: #135E80;
+  color: #EEFF00;
+}
+
+/* THE-START */
+h2 {
+  position: left;
+}
+
+.youtube {
+  left: 44px;
+  position: relative;
+  margin-top: -326px;
+  align-content: center;
+}
+
+.shadowpic {
+  position: absolute;
+  /* left: 816px; */
+  right: 5px;
+  width: 516px;
+  border: #707070;
+  border-width: 2px;
+}
+
+.rectangle {
+  position: relative;
+  left: 876px;
+  top: 219px;
+  /* right: -12px; */
+  width: 360px;
+  border: #707070;
+  border-width: 2px;
+}
+
+.matty {
+  position: relative;
+  left: 1210px;
+  /* right: -5px; */
+  top: 41px;
+  width: 185px;
+  height: 169px;
+}
+
+.history-of-band {
+  /* top: 74px;  */
+  background-color: #F7F7F7;
+  color: #707070;
+  left: 70px;
+  width: 37%;
+  height: 332px;
+  position: absolute;
+  top: 385px;
+  font-size: 27px;
+  text-align: left;
+  font-family: Helvetica;
+  medium;
+  text-indent: left;
+}
+
+.second-text-box {
+  background-color: #124860;
+  margin-top: 225px;
+  height: 393px;
+  width: 94%;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  font-family: Helvetica;
+  regular;
+  font-size: 20px;
+  color: #F7F7F7;
+}
+
+/* EVOLUTION */
+h3 {
+font-family:Helvetica;bold;
+font-size: 21px;
+text-indent: inherit;
+text-transform: uppercase;
+color:#707070;
+}
+
+.body-copy {
+  width: 610px;
+  height: 211px;
+  margin-left: 339px;
+}
+
+section.white-outline {
+  background-color: #F7F7F7;
+  border: #f1eeee;
+  position: relative;
+  border-width: 1px;
+  margin-left: 116px;
+  width: 84%;
+  height: 906px;
+}
+
+section.first-album {
+  /* left: 44px;  */
+  position: absolute;
+  left: 106px;
+  top: 444px;
+  width: 320px;
+  height: 300px;
+}
+
+section.black-box {
+  position: absolute;
+  width: 150px;
+  height: 302px;
+  background-color: #464343;
+  top: 745px;
+  left: 116px;
+}
+
+section.grey-outline {
+  background-color: #707070;
+  border: #f1eeee;
+  position: relative;
+  border-width: 1px;
+  margin-left: 116px;
+  width: 84%;
+  height: 302px;
+  bottom: -251px;
+}
+
+.second-album {
+  position: absolute;
+  width: 320px;
+  height: 300px;
+  right: 243px;
+  top: 746px;
+  border: 1px;
+  border-color: #707070;
+}
+
+.maroon-box {
+  position: relative;
+  width: 149px;
+  height: 604px;
+  background: #6C4249;
+  left: 1177px;
+  top: -51px;
+}
+
+section.second-grey {
+  background-color: #707070;
+  border: #f1eeee;
+  position: relative;
+  border-width: 1px;
+  margin-left: 116px;
+  width: 84%;
+  height: 302px;
+  top: -51px;
+}
+
+section.third-album {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 116px;
+  top: 1048px;
+  /* bottom: 59px; */
+  border: 1px;
+  border-color: #707070;
+}
+
+section.fourth-album {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  left: 760px;
+  border: 1px;
+  border-color: #707070;
+}
+
+section.yellow-box {
+  position: relative;
+  width: 150px;
+  height: 302px;
+  background-color: #EEFF00;
+  bottom: 353px;
+  left: 116px;
+}
+
+/* RELIGION */
+section.blue-box {
+  width: 70%;
+    height: 398px;
+    background-color: #124860;
+}
+
+.blue-black-pic {
+  position: relative;
+    top: 84px;
+    width: 400px;
+    height: 230px;
+    margin-left: 607px;
+}
+
+section.white-box {
+  position: relative;
+    width: 562px;
+    height: 320px;
+    background-color: #F7F7F7;
+    top: -189px;
+}
+
+.second-blue-box {
+  margin-top: 60px;
+      bottom: 31px;
+      width: 70%;
+      height: 398px;
+      background-color: #124860;
+}
+
+section.second-white {
+  position: relative;
+    width: 160px;
+    height: 398px;
+    background-color: #F7F7F7;
+    top: -398px;
+}
+
+section.maroon-youtube-box {
+  position: absolute;
+    width: 277px;
+    height: 856px;
+    background-color: #4D2E33;
+    top: 359px;
+    right: 105px;
 }
