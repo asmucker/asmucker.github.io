@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #17232f;
     font-family: 'Merriweather', serif;
     font-size: 18px;
     margin: 150px;
@@ -13,19 +13,20 @@ body {
 header {
     align-items: baseline;
     justify-content: space-between;
-    padding: 5%;
+    padding: 2%;
     width: 70.13%;
     margin: 0 auto;
 }
 
 a {
-  /* display:block; */
-  align-items: center;
-  padding: 48px inherit;
-  background-color: purple;
-  color: white;
-  /* width: 150px; */
-  margin: 0 30px;
+  display: block;
+    margin-left: 611px;
+    /* top: 29px; */
+    align-items: center;
+    padding: 20px;
+    /* background-color: #716c71; */
+    color: #b86059;
+    margin-top: 8px;
 }
 
 header h1 {
@@ -34,6 +35,15 @@ header h1 {
       /*  5px = .3125em  */
       /*    letter-spacing: .3125em; */
       letter-spacing: 2px;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    /*  5px = .3125em  */
+    /*    letter-spacing: .3125em; */
+    letter-spacing: 2px;
+    color: white;
   }
 
 h1 {
@@ -75,8 +85,14 @@ h3 {
   }
 
 .spacing-box img {
-  margin: 0 auto;
-display: block;
+  /* margin: 0px;  */
+    /* left: 116px; */
+    display: block;
+    width: 398.5px;
+    height: 371.5px;
+    margin-left: 177px;
+    top: -390px;
+    position: relative;
 }
 
   .project-number {

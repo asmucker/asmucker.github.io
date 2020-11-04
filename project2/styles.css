@@ -274,7 +274,10 @@ section.white-box {
     width: 562px;
     height: 320px;
     background-color: #F7F7F7;
-    top: -189px;
+    top: -194px;
+    font-size: 20px;
+    font-family: helvetica;
+    padding: 3px;
 }
 
 .second-blue-box {
@@ -300,4 +303,29 @@ section.maroon-youtube-box {
     background-color: #4D2E33;
     top: 359px;
     right: 105px;
+}
+
+h4 {
+position: absolute;
+font-family: Al Bayan;bold;
+font-size: 22px;
+bottom: -437px;
+}
+
+.believe-textbox {
+  width: 442px;
+  height: 371px;
+  left: 12px;
+  font-size: 20px;
+  font-family:Helvetica,regular;
+}
+
+.jc-box {
+  width: 442px;
+    height: 371px;
+    /* left: 33px; */
+    margin-left: 538px;
+    font-size: 20px;
+    font-family: Helvetica,regular;
+    margin-top: -195px;
 }
