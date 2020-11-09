@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #E5E5E5;
+  font-family:Helvetica, sans-serif;
 }
 
 section {
@@ -18,8 +19,19 @@ section.normal {
   background-color: #3A294E;
   height: 393px;
   text-align: center;
-  width: 947px;
-  margin-left: 40px;
+  width: 94%;
+  margin: 0 auto;
+}
+
+.flexy-box {
+  display:flex;
+  background-color:aqua;
+}
+
+.three-images {
+  width: 653px;
+  height: 393px;
+  background-color:red;
 }
 
 .container {
@@ -116,16 +128,15 @@ h2 {
   /* top: 74px;  */
   background-color: #F7F7F7;
   color: #707070;
-  left: 70px;
+  /* left: 70px; */
   width: 37%;
-  height: 332px;
-  position: absolute;
-  top: 385px;
-  font-size: 27px;
+  /* height: 332px; */
+  /* position: absolute;
+  top: 385px; */
+  font-size: 18px;
   text-align: left;
   font-family: Helvetica;
-  medium;
-  text-indent: left;
+  padding:20px;
 }
 
 .second-text-box {
@@ -143,11 +154,12 @@ h2 {
 
 /* EVOLUTION */
 h3 {
-font-family:Helvetica;bold;
-font-size: 21px;
-text-indent: inherit;
-text-transform: uppercase;
-color:#707070;
+  font-family: Helvetica;
+  bold;
+  font-size: 21px;
+  text-indent: inherit;
+  text-transform: uppercase;
+  color: #707070;
 }
 
 .body-copy {
@@ -193,6 +205,10 @@ section.grey-outline {
   width: 84%;
   height: 302px;
   bottom: -251px;
+}
+
+h4 {
+  color: white;
 }
 
 .second-album {
@@ -257,59 +273,59 @@ section.yellow-box {
 /* RELIGION */
 section.blue-box {
   width: 70%;
-    height: 398px;
-    background-color: #124860;
+  height: 398px;
+  background-color: #124860;
 }
 
 .blue-black-pic {
   position: relative;
-    top: 84px;
-    width: 400px;
-    height: 230px;
-    margin-left: 607px;
+  top: 84px;
+  width: 400px;
+  height: 230px;
+  margin-left: 607px;
 }
 
 section.white-box {
   position: relative;
-    width: 562px;
-    height: 320px;
-    background-color: #F7F7F7;
-    top: -194px;
-    font-size: 20px;
-    font-family: helvetica;
-    padding: 3px;
+  width: 562px;
+  height: 320px;
+  background-color: #F7F7F7;
+  top: -194px;
+  font-size: 20px;
+  font-family: helvetica;
+  padding: 3px;
 }
 
 .second-blue-box {
   margin-top: 60px;
-      bottom: 31px;
-      width: 70%;
-      height: 398px;
-      background-color: #124860;
+  bottom: 31px;
+  width: 70%;
+  height: 398px;
+  background-color: #124860;
 }
 
 section.second-white {
   position: relative;
-    width: 160px;
-    height: 398px;
-    background-color: #F7F7F7;
-    top: -398px;
+  width: 160px;
+  height: 398px;
+  background-color: #F7F7F7;
+  top: -398px;
 }
 
 section.maroon-youtube-box {
   position: absolute;
-    width: 277px;
-    height: 856px;
-    background-color: #4D2E33;
-    top: 359px;
-    right: 105px;
+  width: 277px;
+  height: 856px;
+  background-color: #4D2E33;
+  top: 359px;
+  right: 105px;
 }
 
 h4 {
-position: absolute;
-font-family: Al Bayan;bold;
-font-size: 22px;
-bottom: -437px;
+  position: absolute;
+  font-family: Al Bayan;
+  bold;
+  font-size: 22px;
 }
 
 .believe-textbox {
@@ -317,15 +333,127 @@ bottom: -437px;
   height: 371px;
   left: 12px;
   font-size: 20px;
-  font-family:Helvetica,regular;
+  font-family: Helvetica, regular;
 }
 
 .jc-box {
   width: 442px;
-    height: 371px;
-    /* left: 33px; */
-    margin-left: 538px;
-    font-size: 20px;
-    font-family: Helvetica,regular;
-    margin-top: -195px;
+  height: 371px;
+  /* left: 33px; */
+  margin-left: 538px;
+  font-size: 20px;
+  font-family: Helvetica, regular;
+  margin-top: -195px;
+}
+
+/* SOCIAL JUSTICE */
+.white-box-socjus {
+  background-color: white;
+  border: #f1eeee;
+  position: relative;
+  border-width: 1px;
+  margin-left: 116px;
+  width: 84%;
+  height: 280px;
+}
+
+.grey-box-socjus {
+  background-color: #7C7979;
+  border: #f1eeee;
+  position: relative;
+  border-width: 1px;
+  width: 64%;
+  height: 356px;
+  left: 259px;
+}
+
+.black-box-socjus {
+  background-color: #1A1A19;
+  border: #f1eeee;
+  position: relative;
+  border-width: 1px;
+  margin-left: 116px;
+  width: 74%;
+  height: 356px;
+  top:12px;
+}
+
+.black-box-2 {
+  width: 261px;
+  height: 356px;
+  position: absolute;
+  background-color: #1A1A19;
+  top: 564px;
+  left: 116px;
+}
+
+.box-2-youtube {
+  width: 261px;
+  height: 392px;
+  position: absolute;
+  left: 146px;
+}
+
+.grey-box-socjus2 {
+  background-color: #7C7979;
+  border: #f1eeee;
+  position: relative;
+  border-width: 1px;
+  margin-left: 116px;
+  width: 84%;
+  height: 251px;
+  top:24px;
+}
+
+.grey-extension {
+  width: 516px;
+    height: 138px;
+    background-color: #7C7979;
+    position: absolute;
+    top: 231px;
+    left: -146px;
+    }
+
+.pink-band-photo {
+  width: 440px;
+  height: 250px;
+  margin-top: -160px;
+  margin-left: 0px;
+}
+
+.maroon-box-2 {
+  background-color: #6C4249;
+  height: 724px;
+  width: 145px;
+  position: absolute;
+  left: 1181px;
+}
+
+.maroon-box-3 {
+  background-color: #6C4249;
+  height: 231px;
+  width: 145px;
+  left: -146px;
+  top: 0px;
+  position: absolute;
+}
+
+.loving-someone {
+  position: absolute;
+  width: 480px;
+  height: 270px;
+  right: -35px;
+}
+
+.climate-justice {
+  width: 440px;
+      height: 220px;
+      position: absolute;
+      left: 769px;
+}
+
+.greta-thunberg {
+  position: absolute;
+  left:0px;
+  top:1px;
 }

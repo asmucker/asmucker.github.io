@@ -1,0 +1,114 @@
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E5E5E5;
+}
+
+section.one {
+  background-color: #E5E5E5;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+nav a {
+  width: 20%;
+  font-size: 24px;
+  text-transform: none;
+  text-align: center;
+  background-color: #F4F3E1;
+  color: #5D6063;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.flexy-box {
+
+}
+
+section.normal {
+    width: 80%;
+    height:262px;
+    margin:0 auto;
+    background-color:#3A294E;
+    position:relative;
+    padding:31px;
+}
+
+#home.active, #the-start.active,
+#evolution.active, #religion.active,
+#socjustice.active {
+  color: #F73E3E;
+}
+
+#home:hover, #the-start:hover, #evolution:hover,
+#religion:hover, #socjustice:hover {
+  background-color: #135E80;
+  color: #EEFF00;
+}
+
+h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #707070;
+  display: block;
+  margin-left: 0;
+    margin-right: 0;
+    margin-top: 107px;
+}
+
+h2 {
+font-family: baghdad,regular;
+font-size: 30px;
+  text-transform: uppercase;
+  color: #707070;
+  display: block;
+}
+
+.history {
+  display:flex;
+  justify-content:space-between;
+}
+
+.normal iframe {
+  position: absolute;
+top: 43px;
+left: 30%;
+/* border: 3.5px solid black; */
+}
+
+section.second-text-box {
+  display:flex;
+  background-color:#124860;
+  padding: 31px;
+  width: 80%;
+  justify-content:space-between;
+  margin:0 auto;
+  color:#FFFFFF;
+  margin-top: 18px;
+}
+
+.history-of-band {
+  padding-left: 11px;
+    padding-right: 76px;
+    width: 28%;
+    height: 264px;
+    background-color: white;
+}
+
+.three-images {
+  width: 40%;
+    position: relative;
+    left: -15px;
+    top: -31px;
+}
+
+.first-column {
+ width:30%;
+}
