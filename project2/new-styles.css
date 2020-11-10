@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #E5E5E5;
+  font-size: 16px;
 }
 
 section.one {
@@ -25,10 +26,6 @@ nav a {
   padding: 20px;
   text-decoration: none;
   display: block;
-}
-
-.flexy-box {
-
 }
 
 section.normal {
@@ -64,11 +61,43 @@ h1 {
 }
 
 h2 {
-font-family: baghdad,regular;
+font-family: 'Lato', sans-serif;
 font-size: 30px;
   text-transform: uppercase;
   color: #707070;
   display: block;
+}
+
+h3 {
+  font-family: helvetica,sans-serif,bold oblique;
+  font-size: 20px;
+  color: #707070;
+  display: block;
+}
+
+h4 {
+  font-family:'Lato', sans-serif,light;
+  font-size: 20px;
+  color: #707070;
+  display: block;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: 'Lato', sans-serif,light;
+      font-size: 20px;
+      color: #fffcfc;
+      display: block;
+      text-transform: uppercase;
+      height: 28px;
+}
+
+h6 {
+  font-family: 'Lato', sans-serif,light;
+font-size: 20px;
+color: #fffcfc;
+display: block;
+height: 8px;
 }
 
 .history {
@@ -112,3 +141,317 @@ section.second-text-box {
 .first-column {
  width:30%;
 }
+
+.row {
+  display: flex;
+}
+
+.row div {
+  height:237px;
+}
+
+/* COLORS */
+
+.eighth_column {
+  background:#FFFFFF;
+  /* border: 2.5px solid #000000; */
+}
+
+.quarter_column {
+  background:#424041;
+  border: none;
+}
+
+.extra.quarter_column {
+  background: #ffffff;
+      border: none;
+}
+
+.three-eighths_column {
+  background: white;
+  /* border: 2.5px solid #000000; */
+}
+
+.extra.three-eighths_column {
+  background: maroon;
+  /* border: 2.5px solid #000000; */
+}
+
+/* --------- */
+
+.quarter_column2 {
+  width:11%;
+  background:#424041;
+  border: none;
+}
+
+.hybrid .eighth_column2 {
+  width: 44.3%;
+      padding-left: 22px;
+      padding-right: 41px;
+      background-color: grey;
+      color: white;
+}
+
+.three-eighths_column2 {
+  background: #424041;
+}
+
+.extra.quarter_column2 {
+  width: 18%;
+  background: #6C4249;
+      border: none;
+      height: 237px;
+}
+.extra.quarter_column3 {
+  width: 18%;
+  background: #808080;
+      border: none;
+      height: 237px;
+}
+
+/* --------- */
+
+/* Hybrid Section */
+.hybrid {
+width:1161px;
+margin: 20px auto -2px auto;
+}
+
+.hybrid .eighth_column {
+/* width:42.3%; */
+width: 50.3%;
+    padding-left: 37px;
+    padding-right: 12px;
+}
+
+.hybrid .quarter_column {
+width:25.5%%;
+}
+
+.hybrid .extra.quarter_column {
+  width: 21.5%;
+    height: 237px;
+    margin-bottom: 12px;
+
+}
+
+.hybrid .three-eighths_column {
+/* width: 18.3%; */
+width:10.3%;
+}
+
+.hybrid .extra.three-eighths_column {
+  /* width: 18.3%; */
+  width:10.3%;
+}
+
+/* STATIC SECTION */
+.static {
+/* width:144px; */
+margin: 20px auto -2px auto;
+}
+
+.static .eighth_column {
+width: 340px;
+padding-top:50px;
+background-color: #124860;
+}
+
+.static .quarter_column {
+width: 448px;
+padding-left: 18px;
+    padding-right: 18px;
+    padding-top:1px;
+    padding-bottom:4px;
+    background-color: white;
+    color: #707070;
+    border:none;
+}
+
+.static .extra.quarter_column {
+  width: 515px;
+  padding-top: 22px;
+    padding-bottom: 28px;
+      background-color: #124860;
+}
+
+/* Static colors */
+
+/* Religion section */
+
+.column-one {
+  width: 181%;
+    background-color: #124860;
+    padding-left: 51px;
+        padding-right: 22px;
+    color: #A4D7E0;
+    font-family: helvetica,sans-serif,light;
+}
+
+.static.three-eighths_column {
+  width: 575px;
+      height: 352px;
+      padding-bottom: -20px;
+      color: white;
+}
+
+section.second-box {
+  display: flex;
+    background-color: #124860;
+    padding: 3px;
+    padding-left: 0px;
+    width: 61.7%;
+    justify-content: space-between;
+    color: #FFFFFF;
+    margin-top: 18px;
+}
+
+section.maroon-youtube-box {
+  position: absolute;
+width: 266px;
+height: 283px;
+background-color: #444343;
+top: 282px;
+right: 138px;
+}
+
+.flexy-box {
+  position: relative;
+}
+
+
+/* SOC-JUSTICE */
+
+/* Responsive Section */
+/* ---row1---- */
+.responsive {
+width:1161px;
+margin: 20px auto -2px auto;
+
+}
+
+.responsive .eighth_column {
+width: 12.5%;
+}
+
+.responsive .quarter_column {
+/* width: 25%; */
+width: 37%;
+background-color: white;
+border:none;
+}
+
+.responsive .extra.quarter_column {
+  width: 68.5%;
+    padding-right: 25px;
+    padding-left: 29px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.responsive .three-eighths_column {
+  padding-right: 18px;
+      width: 35.5%;
+      text-align: right;
+      color: white;
+}
+
+/* ---row2---- */
+.responsive .extra.second-quarter_column {
+  width: 15.5%;
+      height: 278px;
+    padding-right: 25px;
+    padding-left: 29px;
+    background-color: #1A1A19;
+    border: none;
+  }
+
+  .responsive .second-eighths_column {
+  width: 25.5%;
+  height:278px;
+  background-color:#7C7979;
+  border:2px;
+  }
+
+  .responsive .second-quarter_column {
+  height: 41.1vh;
+  width: 10%;
+  background-color: #6C4249;
+  }
+
+  .responsive .second-three-eighths_column {
+    width: 41.5%;
+    background-color: #7c7979;
+    padding-left: 24px;
+    padding-right: 12px;
+    height: 278px;
+    color: white;
+  }
+
+  /* ---row3---- */
+  .responsive .extra.third-quarter_column {
+    height:30vh;
+    width: 10%;
+    background-color: #6C4249;
+    }
+
+    .responsive .third-eighth_column {
+      width: 8.5%;
+      height: 288px;
+      background-color: #1A1A19;
+      margin-bottom: 12px;
+    }
+
+    .responsive .third-quarter_column {
+      height: 28.5vh;
+      width: 31%;
+      background-color: #6C4249;
+    }
+
+    .responsive .third-three-eighths_column {
+      width: 39.5%;
+      height: 288px;
+    background-color: #1A1A19;
+    color: white;
+    padding-right:18px;
+    }
+
+/* ---row4---- */
+.responsive .extra.four-quarter_column {
+  height: 32.2vh;
+    width: 74%;
+    background-color: #7C7979;
+    margin-top: 30px;
+  }
+
+  .responsive .four-eighth_column {
+  width: 8.5%;
+  height: 288px;
+  background-color: #1A1A19;
+  }
+
+  .responsive .four-quarter_column {
+    padding-right: 18px;
+    height: 36.5vh;
+    width: 100%;
+    color: white;
+    background-color: #7c7979;
+    font-family: helvetica,sans-serif,regular;
+  }
+
+  .responsive .four-three-eighths_column {
+    width: 39.5%;
+    height: 33.1vh;
+    background-color: #7c7979;
+    color: white;
+    padding: 12px;
+  }
+
+  .responsive .grey-extension {
+    width: 461px;
+    height: 109px;
+    margin-top: 221px;
+      background-color: #7C7979;
+      position: absolute;
+      }
