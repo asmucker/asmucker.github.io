@@ -86,16 +86,18 @@ h3 {
   }
 
 .spacing-box img {
-  /* margin: 0px;  */
-    /* left: 116px; */
     display: block;
-    width: 398.5px;
-    height: 371.5px;
-    margin-left: 177px;
-    top: -390px;
-    position: relative;
+    width: 354px;
+    height: 654px;
+    margin-left: 174px;
+    top: 253px;
+    position: absolute;
 }
 
   .project-number {
   margin-right:
+  }
+
+  .button-holder {
+    top: 12px;
   }
