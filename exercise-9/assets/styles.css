@@ -1,0 +1,130 @@
+/* This is the stylesheet for Exercise 9 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-size:20px;
+  font-family: 'Playfair Display', serif;
+}
+
+header {
+  background-color: #cccccc;
+  color:#000000;
+  text-align:center;
+  font-family: 'Righteous', cursive;
+}
+
+footer {
+  background-color:#000000;
+  color:#ffffff;
+  text-align: center;
+}
+
+.row, footer {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+      height: 5%;
+      /* padding-right: 22px; */
+}
+
+footer img {
+  width: 15%;
+}
+
+p {
+  font-size: 1em;
+  margin: 2em 0;
+  padding:.5em;
+}
+img {
+  width:100%;
+}
+
+
+footer {
+  padding: 3em;
+}
+
+footer h4 {
+  font-family:sans-serif;
+  margin: 0;
+}
+
+footer img {
+  width: 20%;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 2.5em;
+  color: #942a2a
+}
+/********** Media Queries *************/
+
+/* Tablet Styles */
+@media screen and (min-width:775px) {
+body {
+  font-size:18px;
+  color:blue;
+  padding: 30px;
+}
+
+img {
+  width: 52%;
+  height: 5%;
+  /* padding-left: 22px; */
+}
+
+footer img {
+  width: 10%;
+  margin: 0 auto;
+  /* padding: 1em; */
+}
+
+}
+
+
+/* Desktop Styles */
+@media screen and (min-width:1055px) {
+section {
+  width:60vw;
+  margin: 0 auto;
+}
+
+.row {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+p,
+.row img {
+  margin: 3em 0;
+}
+
+.row img
+.row p {
+  width:45%;
+  margin-bottom:5em;
+}
+
+footer img {
+  width:5%;
+}
+
+.row,
+footer {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row.r2 {
+  flex-flow: row-reverse;
+}
+}
