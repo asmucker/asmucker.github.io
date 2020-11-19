@@ -1,0 +1,227 @@
+/* External Stylesheet for Exercise 10: Responsive Resume Design */
+/* REMINDER — CODE MOBILE FIRST! The code needed to display your design on a tablet or desktop should be handled using MEDIA QUERIES */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  color: #2F2A26;
+}
+
+header {
+  text-align: center;
+  background: #B2B7A0;
+  height: 108px;
+
+}
+
+header img {
+  width: 185px;
+  margin-top: 32px;
+}
+
+header h1, header h2, header h3 {
+  font-family: 'Kanit', sans-serif;
+  text-transform: uppercase;
+  color: #D5D9C3;
+}
+
+header h1 {
+  /* font-size: 2em; */
+  margin-top: 0;
+
+}
+
+header h2 {
+  margin-top: 0;
+  /* margin-top: .75em; */
+}
+
+header h3 {
+  margin-top: 1.3333em;
+}
+
+header h4 {
+  background-color: #657C72;
+  width: 100%;
+    height: 240px;
+    position: absolute;
+    top: 107px;
+    z-index: -1;
+    margin-bottom: 2.5em;
+}
+
+header a {
+  font-weight: 200;
+  /* text-decoration:none;no underline */
+  color:
+}
+
+#line-below-header div {
+  margin: 0 auto;
+width: 86.35px;
+height: 3px;
+margin-top: 6px;
+}
+
+.thin-brown-line {
+    height: 3px;
+    background-color: #9F9D9D;
+    size: 2px;
+}
+
+.container {
+
+}
+
+.job-container.row2 {
+  margin-top:2em;
+}
+
+
+
+
+#career-header {
+  top: 327px;
+  padding: 1.5em;
+}
+
+.career-summary {
+margin-top:304px;
+}
+
+.career-summary h1 {
+  color: #95561E;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #9F9D9D;
+}
+
+.title-place {
+  color: #95561E;
+  font-family: 'Kanit', sans-serif;
+}
+
+#left-column h1, #career-summary h1, #right-column h1 {
+  color: #95561E;
+    margin-top: 2em;
+    margin-bottom: 0.75em;
+    padding-bottom: .5em;
+    border-bottom: 1.5px solid #9F9D9D;}
+
+.education block h2 {
+  color: #E5BC97;
+}
+
+#find-me-header h1 {
+  color: #657C72;
+  margin-bottom: 10px;
+  margin-top: 10px;
+    border-bottom: 2px solid #9F9D9D;
+}
+
+.find-me-links {
+  margin-top: 57px;
+}
+
+.find-me-links img {
+  width: 145px;
+      height: 274px;
+}
+
+.links {
+  margin-left: 110px;
+    top: 1935px;
+    /* margin-bottom: -207px; */
+    position: absolute;
+    float: left;
+    }
+
+
+.row {
+  display: flex;
+}
+}
+
+/* ********** MEDIA QUERIES ********************* */
+/* Tablet Design */
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+
+  header {
+    text-align: center;
+    background: #B2B7A0;
+    height: 108px;
+  }
+
+  .container {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+.links {
+  margin-left: 110px;
+      top: 1344px;
+      /* margin-bottom: -207px; */
+      position: absolute;
+      display: block;
+}
+}
+
+/* Desktop Design */
+@media screen and (min-width:1025px) {
+header {
+  flex-direction:row;
+}
+
+/* header img {
+  height: 100%;
+  width:100%;
+} */
+
+.flex {
+    display: flex;
+  }
+
+  .time-frame h5 {
+    margin-left: 13.125em;
+    color: #E5BC97;
+    margin-bottom: 2px;
+  }
+
+  h5 {
+    color: #E5BC97;
+  }
+
+  #columns-container {
+    justify-content: space-between;
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  .flex #left-column {
+    width: 58.7239%;
+  }
+
+  .flex #right-column {
+    width: 26.4322%;
+  }
+
+  #career-header {
+        margin-left: 191px;
+        margin-right: 191px;
+        object-position: center;
+  }
+  .links {
+      margin-left: 110px;
+        top: 1332px;
+        /* margin-bottom: -207px; */
+        position: absolute;
+        display: block;
+    }
+
+
+
+}
